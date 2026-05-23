@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            font-family: "DM Sans", sans-serif;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 52px;
+            letter-spacing: -0.4px;
+            text-align: center;
+            color: rgba(30, 14, 98, 1);
+            margin-bottom: 8px;
+        }
+
+        table,
+        thead,
+        th,
+        tr {
+            border: 1px solid rgba(235, 234, 237, 1);
+            border-collapse: collapse;
+            text-align: center;
+            width: 1160px;
+        }
+
+        tr {
+            height: 132.67px;
+            width: 287.84px;
+
+        }
+
+        td {
+            border: 1px solid rgba(235, 234, 237, 1);
+            border-collapse: collapse;
+            text-align: center;
+            width: 1160px;
+            height: 60px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: rgba(30, 14, 98, 1);
+        }
+
+        .sub-p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: rgba(30, 14, 98, 1);
+        }
+
+        th {
+            padding: 30px 49px 22px 49px;
+            height: 132.67px;
+            width: 287.84px;
+        }
+
+        td {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 26px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: rgba(21, 20, 57, 0.4);
+        }
+
+        .sub-sub {
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 70px;
+            letter-spacing: -1px;
+            text-align: center;
+            color: rgba(30, 14, 98, 1);
+
+        }
+
+        .change {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: rgba(30, 14, 98, 1);
+            vertical-align: text-top;
+        }
+
+
+
+        button {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: white;
+            border-radius: 100px;
+            border: 2px solid rgba(235, 234, 237, 1);
+            padding: 12px 30px 12px 30px;
+            color: rgba(30, 14, 98, 1);
+            margin: 39px 0px 40px 0px;
+            cursor: pointer;
+        }
+
+        .diffrent-button {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: rgba(37, 218, 197, 1);
+            border-radius: 100px;
+            border: 2px solid rgba(235, 234, 237, 1);
+            padding: 12px 30px 12px 30px;
+            color: rgba(30, 14, 98, 1);
+            margin: 39px 0px 40px 0px;
+            cursor: pointer;
+        }
+
+        .margin-tr {
+            height: 60px;
+            width: 1160px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Do more with Startup Framework </h1>
+        <table>
+            <thead>
+                <th></th>
+                <th>
+                    <p> Basic Plan </p>
+                    <p class="sub-p">All the basic for starting a<br> new business</p>
+                </th>
+                <th>
+                    <p> Pro Plan </p>
+                    <p class="sub-p">Everithing you need for a<br> growing business</p>
+                </th>
+                <th>
+                    <p>Company Plan</p>
+                    <p class="sub-p">Perfect for companies,<br> agencies & teams</p>
+                </th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><span class="right-align">price</span></td>
+                    <td><span class="sub-sub"> <sup class="change">$</sup>&nbsp;19</span></td>
+                    <td><span class="sub-sub"><sup class="change">$</sup>49</span></td>
+                    <td><span class="sub-sub"><sup class="change">$</sup>99</span></td>
+                </tr>
+                <tr class="margin-tr">
+                    <td><span class="right-align">Hosted Projects</span></td>
+                    <td>Unlimited</td>
+                    <td> Unlimited</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr class="margin-tr">
+                    <td>Hosted Projects</td>
+                    <td>2</td>
+                    <td>10</td>
+                    <td>Unlimited</td>
+                </tr>
+
+                <tr class="margin-tr">
+                    <td> Billing</td>
+
+                    <td>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="20" height="20" rx="6" fill="#EBEAED" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="20" height="20" rx="6" fill="#25DAC5" />
+                            <path d="M6 10.5L8.64706 13L14 8" stroke="#1E0E62" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="20" height="20" rx="6" fill="#25DAC5" />
+                            <path d="M6 10.5L8.64706 13L14 8" stroke="#1E0E62" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="margin-tr">
+                    <td>Support</td>
+                    <td>Forum</td>
+                    <td>Chat</td>
+                    <td>Phone Call</td>
+                </tr>
+
+                <tr class="margin-tr">
+                    <td> Custom Domen </td>
+                    <td>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="20" height="20" rx="6" fill="#EBEAED" />
+                        </svg>
+
+                    </td>
+                    <td>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="20" height="20" rx="6" fill="#EBEAED" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="20" height="20" rx="6" fill="#25DAC5" />
+                            <path d="M6 10.5L8.64706 13L14 8" stroke="#1E0E62" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="margin-tr">
+                    <td>Dashboard</td>
+                    <td>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="20" height="20" rx="6" fill="#EBEAED" />
+                        </svg>
+
+                    </td>
+                    <td>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="20" height="20" rx="6" fill="#EBEAED" />
+                        </svg>
+                    </td>
+                    <td>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="20" height="20" rx="6" fill="#25DAC5" />
+                            <path d="M6 10.5L8.64706 13L14 8" stroke="#1E0E62" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr class="button-tr">
+                    <td></td>
+                    <td><button>Get Started for Free </button> </td>
+                    <td><button class="diffrent-button">Get Started for Free </button></td>
+                    <td><button>Get Started for Free</button></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
