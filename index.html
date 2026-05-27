@@ -5,7 +5,173 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>location-web</title>
-   <link rel="stylesheet" href="./css/style.css">
+   <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            text-decoration: none;
+            list-style-type: none;
+            box-sizing: border-box;
+            font-family: "DM Sans", sans-serif;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 131px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+            flex-wrap: wrap;
+        }
+
+        .card-a {
+            border-bottom: 2px solid rgba(235, 234, 237, 1);
+        }
+
+        .heading-a {
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 52px;
+            letter-spacing: -0.4px;
+            color: rgba(30, 14, 98, 1);
+            margin-bottom: 25.2px;
+        }
+
+        .paragraph-a {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0px;
+            color: rgba(21, 20, 57, 0.4);
+            margin-bottom: 34.8px;
+        }
+
+        .card-svg-a {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 12px;
+        }
+
+        .card-svg-b {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 35px;
+        }
+
+        .paragraph-b {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0px;
+            color: rgba(30, 14, 98, 1);
+        }
+
+        .heading-b {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 32px;
+            letter-spacing: 0px;
+            color: rgba(30, 14, 98, 1);
+            margin-bottom: 11px;
+        }
+
+        .paragraph-c {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0px;
+            color: rgba(21, 20, 57, 0.4);
+            margin-bottom: 36px;
+        }
+
+        .location {
+            width: 370px;
+            height: 230px;
+            border-radius: 10px;
+        }
+
+
+        .card-3-head {
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 52px;
+            letter-spacing: -0.4px;
+            color: rgba(30, 14, 98, 1);
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(235, 234, 237, 0.3);
+            padding: 48px 50px 64px 50px;
+            border-radius: 10px;
+        }
+
+        .lable-form {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 26px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: rgba(30, 14, 98, 1);
+            margin-bottom: 6px;
+        }
+
+        .email-form {
+            padding: 12px 0px 12px 24px;
+            border: 2px solid rgba(235, 234, 237, 1);
+            border-radius: 100px;
+            width: 370px;
+            margin-bottom: 37px;
+        }
+
+        .name-form {
+            padding: 12px 0px 12px 24px;
+            border: 2px solid rgba(235, 234, 237, 1);
+            border-radius: 100px;
+            width: 270px;
+        }
+
+        .button {
+            border-radius: 100px;
+            padding: 12px 24px 12px 24px;
+            background-color: rgba(37, 218, 197, 1);
+            color: rgba(255, 255, 255, 1);
+            border: none;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        textarea {
+            resize: none;
+            padding-top: 13px;
+            padding-left:19px;
+            border: 2px solid rgba(235, 234, 237, 1);
+            border-radius: 10px;
+            margin-bottom: 35px;
+            height: 170px;
+            width: 370px;
+        }
+
+        .diffrent-div {
+            display: flex;
+            gap: 10px;
+        }
+</style>
 </head>
 
 <body>
